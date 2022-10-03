@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 35, 35) !important;
+    
+}
+.rosa {
+    text-decoration-color:violet;
+}
+
+.branco{
+    color: rgb(255, 255, 255);
+}
+
+#azul{
+    background-color: blue; height: 120px;
+  }
+  #vermelho{
+    background-color: red; height: 120px;
+  }
+  #preto {min-height:400px;
+         }
+  #amarelo {
+    background-color: yellow; min-height: 400px
+  }
+  #verde{
+    background-color: green; height: 115px;
+  }
+
+  
+  
+  #administra{
+    background-color:#78BEFF ; width: 500px; 
+    text-align: center;
+  }
+  #arte{
+    text-align: center;
+    background-color:rgb(250, 242, 90); width: 500px; 
+  }
+
+  #bio {
+    text-align: center;
+    background-color: rgb(96, 255, 123) ; width: 500px; 
+  }
+
+  #exatas{
+    text-align: center;
+    background-color:rgb(255, 134, 161);  width: 500px;
+  }
+
+  #humanas{
+    text-align: center;
+    background-color:rgb(157, 157, 255) ;  width: 500px;
+  }
+
+  #comun{
+    text-align: center;
+    background-color: rgb(250, 242, 90);  width: 500px;
+  }
+  #eng{
+    text-align: center;
+    background-color: rgb(255, 138, 226);  width: 500px;
+  }
+  #saude{
+    text-align: center;
+    background-color: rgb(137, 247, 137);  width: 500px;
+  }
+
+  #jogos{
+    text-align: center;
+    background-color: red; height: 400;
+  }
+  #cursos{
+    text-align: center;
+    background-color: rgb(77, 77, 236); height:  400;
+  }
+  #guia{
+    text-align: center;
+    background-color: rgb(48, 212, 48); height: 400;
+  }
+
+
+
+  .cards-wrapper {
+    display: flex;
+    justify-content: space-around;
+   
+   
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+    
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 yellow;
+    border:none;
+    border-radius: 0;
+    width: 280px;
+ 
+  }
+  #red{
+    background-color: #f82d2d;
+    color:azure
+    
+  }
+
+  #redshadow{
+    box-shadow: 2px 6px 8px 0 red;
+    
+  }
+
+  .card-body{
+    background-color: rgb(255, 255, 40);
+    
+  }
+    
+  #blue{
+    background-color: rgb(53, 53, 255);
+    color:azure
+    }
+    #blueshadow{
+      box-shadow: 2px 6px 8px 0 rgb(37, 37, 255);
+      
+    }
+    
+    #verd{
+      background-color: rgb(51, 204, 51);
+      color:rgb(27, 27, 27);
+      }
+      #verdshadow{
+        box-shadow: 2px 6px 8px 0 rgb(12, 192, 12);
+        
+      }
+
+ 
+  
+  
+  .carousel-inner {
+    padding: 1em;
+  }
+  @media screen and (max-width: 500px) {
+    .card { width: 260px; 
+      
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+    }
+    .carousel-control-prev {
+      margin-left: -2%; 
+    }
+    .carousel-control-next{
+      margin-right: -2%; 
+    }
+    
+  
+  
+  
+
+
+
+
+
